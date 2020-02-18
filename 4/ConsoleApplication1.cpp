@@ -1,21 +1,29 @@
-// ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
-
 #include <iostream>
 #include <string>
 #include <vector>
 #include <cmath>
 #include <algorithm>
-#include "conjunto.h"
-
+#include <limits.h>
+#include "polinomio.h"
 using namespace std;
 
+
+
+
 int main(){
-   
-
-
-
+	int c, e;
+	while (true){
+		polinomio p;
+		while (cin >> c >> e && (c + e) != 0) {
+			p.addMonimio(c, e);
+		}
+		int n, t; 
+		cin >> n;
+		for (int i = 0; i++; i < n) {
+			cin >> t;
+			cout << p.evaluar(t);
+		}
+	}
 
 
 }
