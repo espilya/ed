@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -25,9 +26,11 @@ public:
 	}	
 
 	int evaluar(int valor) {
+		int res =0;
 		for (int i = 0; i < v.size(); i++){
-
+			res += v[i].coef * pow(valor, v[i].exp);
 		}
+		return res;
 	}
 };
 
