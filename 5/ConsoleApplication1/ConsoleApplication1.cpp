@@ -15,11 +15,37 @@ using namespace std;
 //-2 2
 
 
+
+
 int main() {
-	while (1) {
-		complejos<int, double> c(1, 2);
+	char aux;
+	while (cin >> aux) {
+		if (aux == 'N') {
+			int n, t;
+			set<int> v(1);
+			cin >> n;
+			while (cin >> t && t != -1) {
+				v.insert(t);
+			}
+			set<int> a(1);
 
+			a.insert(v.~set);
+			for (int i=1; i < n; i++) {
 
+			}
 
+		}
+		else {
+			int n;
+			string t;
+			set<string> v(1);
+			cin >> n;
+			while (cin >> t && t != "FIN") {
+				v.insert(t);
+			}
+
+		}
+
+	}
 }
 
