@@ -1,0 +1,3 @@
+﻿  ConsoleApplication1.cpp
+U:\hlocal\ed-master\4\ConsoleApplication1\polinomio.h(45,21): warning C4018: '<': signed/unsigned mismatch
+  ConsoleApplication1.vcxproj -> U:\hlocal\ed-master\4\ConsoleApplication1\Debug\ConsoleApplication1.exe

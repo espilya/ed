@@ -43,9 +43,25 @@ public:
 	int evaluar(int valor) {
 		int res = 0;
 		for (int i = 0; i < v.size(); i++) {
-			res += v[i].coef * pow(valor, v[i].exp);
+			res += v[i].coef * calc(valor, v[i].exp);
 		}
 		return res;
+	}
+	
+	int calc(int v, int ind){
+		int res = 1;
+		while(ind>0){
+			if(ind%2==0){
+				ind = ind/2;
+				v *= v;
+			}
+			else{
+				ind -=1;
+				res *= v;
+			}
+		}
+		return res; 
+		
 	}
 };
 

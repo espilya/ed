@@ -20,8 +20,8 @@ using namespace std;
 int main() {
 	string str;
 	while (getline(cin, str)) {
-		int a = 0, b = 0, c = 0;
-		for (int i = 0; i < str.size(); i++) {
+		double a = 0, b = 0, c = 0;
+		for (double i = 0; i < str.size(); i++) {
 			if (str[i] == '[')
 				a++;
 			else if (str[i] == ']')
