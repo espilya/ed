@@ -44,20 +44,35 @@ public:
 
 
     void invertir() {
-        int n = nelems-1;
-        Nodo* iter;
-        Nodo * a;
-        Nodo * next;
+        if(nelems <= 1) return;
 
-        ult = prim;
+        Nodo* iterA = prim;
+        Nodo* iterB = iterA->sig;
+        Nodo* aux = iterB->sig;
 
-        while (n--){
-            iter = prim;
-
-
-
+        if(nelems == 2) {
+            ult->sig = prim;
+            prim->sig = nullptr;
+            aux = prim;
+            prim = ult;
+            ult = aux;
+            return;
         }
 
+        while (1){
+            iterB->sig = iterA;
+            if (aux->sig == nullptr) {
+                aux->sig = iterB;
+                break;
+            }
+            iterA = iterB;
+            iterB = aux;
+            aux = aux->sig;
+        }
+        prim->sig = nullptr;
+        aux = prim;
+        prim = ult;
+        ult = aux;
     }
 
     void toString() {
