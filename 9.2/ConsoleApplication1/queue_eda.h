@@ -43,19 +43,36 @@ protected:
 public:
 
 
-    void duplicar() {
+    void invertir() {
+        if(nelems <= 1) return;
 
-        Nodo* iter = prim;
+        Nodo* iterA = prim;
+        Nodo* iterB = iterA->sig;
+        Nodo* aux = iterB->sig;
 
-        while (iter != nullptr) {
-            Nodo* ptrNew = new Nodo(iter->elem);
-            ptrNew->sig = iter->sig;
-            iter->sig = ptrNew;
-
-            ++nelems;
-
-            iter = ptrNew->sig;
+        if(nelems == 2) {
+            ult->sig = prim;
+            prim->sig = nullptr;
+            aux = prim;
+            prim = ult;
+            ult = aux;
+            return;
         }
+
+        while (1){
+            iterB->sig = iterA;
+            if (aux->sig == nullptr) {
+                aux->sig = iterB;
+                break;
+            }
+            iterA = iterB;
+            iterB = aux;
+            aux = aux->sig;
+        }
+        prim->sig = nullptr;
+        aux = prim;
+        prim = ult;
+        ult = aux;
     }
 
     void toString() {

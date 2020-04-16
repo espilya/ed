@@ -4,6 +4,7 @@
 #include <cmath>
 #include <algorithm>
 #include <limits.h>
+#include <stack>
 
 using namespace std;
 
@@ -16,26 +17,49 @@ using namespace std;
 
 
 
+const string todos = "[{(}])";
+
+const string abierto = "[{(";
+
 
 int main() {
 	string str;
 	while (getline(cin, str)) {
-		double a = 0, b = 0, c = 0;
-		for (double i = 0; i < str.size(); i++) {
-			if (str[i] == '[')
-				a++;
-			else if (str[i] == ']')
-				a--;
-			else if (str[i] == '{')
-				b++;
-			else if(str[i] == '}')
-				b--;
-			else if(str[i] == '(')
-				c++;
-			else if (str[i] == ')')
-				c--;
+		bool ok = true;
+		stack<char> pila;
+		int i = 0;
+		while (ok && i < str.size()) {
+			char a = str[i];
+			if (todos.find(a) != string::npos) {
+				if (abierto.find(a) != string::npos) {
+					pila.push(a);
+				}
+				else {
+					if (pila.empty())
+						ok = false;
+					else {
+						char b = pila.top();
+						pila.pop();
+						switch (a) {
+						case ']':
+							ok = (b == '[');
+							break;
+						case '}':
+							ok = (b == '{');
+							break;
+						case ')':
+							ok = (b == '(');
+							break;
+						}
+					}
+
+				}
+			}
+			i++;
 		}
-		cout << ((a == 0 && b == 0 && c == 0) ? "SI" : "NO") << endl;
+		ok = ok && pila.empty();
+		cout << (ok ? "SI" : "NO") << endl;
 	}
+
 }
 

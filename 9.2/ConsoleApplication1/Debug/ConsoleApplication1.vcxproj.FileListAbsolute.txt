@@ -1,0 +1,2 @@
+C:\Users\Inga\Documents\GitHub\ed\9.2\ConsoleApplication1\Debug\ConsoleApplication1.exe
+C:\Users\Inga\Documents\GitHub\ed\9.2\ConsoleApplication1\Debug\ConsoleApplication1.pdb

@@ -42,6 +42,20 @@ protected:
 
 public:
 
+	void invertir() {
+		if (nelems <= 1) return;
+
+		Nodo* aux;
+		Nodo* act = fantasma;
+		do{
+			aux = act->ant;
+			act->ant = act->sig;
+			act->sig = aux;
+
+			act = act->ant;
+		}while (act != fantasma);
+	}
+
 	void duplicar() {
 		Nodo* iter = fantasma->sig;
 
