@@ -1,0 +1,4 @@
+C:\Users\Inga\Documents\GitHub\ed\10\Debug\10.exe
+C:\Users\Inga\Documents\GitHub\ed\10\Debug\10.pdb
+C:\Users\Inga\Documents\GitHub\ed\10.2\Debug\10.exe
+C:\Users\Inga\Documents\GitHub\ed\10.2\Debug\10.pdb

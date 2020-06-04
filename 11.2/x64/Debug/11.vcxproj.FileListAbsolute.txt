@@ -1,0 +1,4 @@
+C:\Users\Inga\Documents\GitHub\ed\11\x64\Debug\11.exe
+C:\Users\Inga\Documents\GitHub\ed\11\x64\Debug\11.pdb
+C:\Users\Inga\Documents\GitHub\ed\11.2\x64\Debug\11.2.exe
+C:\Users\Inga\Documents\GitHub\ed\11.2\x64\Debug\11.2.pdb

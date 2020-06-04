@@ -4,6 +4,12 @@
 #include <cmath>
 #include <algorithm>
 #include <limits.h>
+#include <fstream>
+#include <string>
+#include <queue>
+#include <deque>
+#include <stack>
+#include <ctype.h>
 
 using namespace std;
 

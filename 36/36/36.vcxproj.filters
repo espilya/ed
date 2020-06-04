@@ -23,5 +23,8 @@
     <ClInclude Include="alumno.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="treemap_eda.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,0 +1,2 @@
+C:\Users\Inga\Documents\GitHub\ed\continua\Debug\continua.exe
+C:\Users\Inga\Documents\GitHub\ed\continua\Debug\continua.pdb

@@ -16,9 +16,9 @@ using namespace std;
 
 
 int main() {
-	while (1) {
 		polinomio p;
-		cin >> p;
+	while (cin >> p) {
+		
 
 		int n, t;
 		cin >> n;

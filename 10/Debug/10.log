@@ -1,25 +1,2 @@
 ﻿  10.cpp
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(26,17): error C3861: prim: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(54): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "smartQueue<T>"
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(26,32): error C3861: ult: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(26,12): error C3861: nelems: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(31,3): error C3861: Nodo: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(31,10): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(31,17): error C3861: prim: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(32,3): error C3861: Nodo: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(32,9): error C3861: aux: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(32,14): error C3861: auxPrimero: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(33,21): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(34,4): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(34,11): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(37,3): error C3861: aux: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(37,9): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(38,3): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(39,18): error C3861: aux: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(46,3): error C3861: Nodo: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(46,9): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(46,16): error C3861: prim: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(47,10): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(48,17): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(49,4): error C3861: iter: идентификатор не найден
-C:\Users\Inga\Documents\GitHub\ed\10\smartQueue.h(49,11): error C3861: iter: идентификатор не найден
+  10.vcxproj -> C:\Users\Inga\Documents\GitHub\ed\10\Debug\10.exe

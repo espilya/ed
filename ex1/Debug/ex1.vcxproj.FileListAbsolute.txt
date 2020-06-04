@@ -1,0 +1,2 @@
+C:\Users\Inga\Documents\GitHub\ed\ex1\Debug\ex1.exe
+C:\Users\Inga\Documents\GitHub\ed\ex1\Debug\ex1.pdb

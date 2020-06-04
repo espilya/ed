@@ -1,3 +1,4 @@
 ﻿  ConsoleApplication1.cpp
-U:\hlocal\ed-master\4\ConsoleApplication1\polinomio.h(45,21): warning C4018: '<': signed/unsigned mismatch
-  ConsoleApplication1.vcxproj -> U:\hlocal\ed-master\4\ConsoleApplication1\Debug\ConsoleApplication1.exe
+C:\Users\Inga\Documents\GitHub\ed\4\ConsoleApplication1\polinomio.h(41,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Inga\Documents\GitHub\ed\4\ConsoleApplication1\polinomio.h(42,1): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\Inga\Documents\GitHub\ed\4\ConsoleApplication1\Debug\ConsoleApplication1.exe
