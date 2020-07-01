@@ -1,0 +1,57 @@
+﻿  45.cpp
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(301,41): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(297): message : while compiling class template member function 'void unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>::Iterador<false>::next(void)'
+          with
+          [
+              Clave=int
+          ]
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(255): message : see reference to function template instantiation 'void unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>::Iterador<false>::next(void)' being compiled
+          with
+          [
+              Clave=int
+          ]
+C:\Users\Inga\Documents\GitHub\ed\45\45.cpp(22): message : see reference to class template instantiation 'unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>::Iterador<false>' being compiled
+          with
+          [
+              Clave=int
+          ]
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(277,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(274): message : while compiling class template member function 'unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>::Iterador<false>::Iterador(unordered_map<Clave,std::string,std::hash<int>,std::equal_to<Clave>> *,bool)'
+          with
+          [
+              Clave=int
+          ]
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(363): message : see reference to function template instantiation 'unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>::Iterador<false>::Iterador(unordered_map<Clave,std::string,std::hash<int>,std::equal_to<Clave>> *,bool)' being compiled
+          with
+          [
+              Clave=int
+          ]
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(280,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(221,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(219): message : while compiling class template member function 'void unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>::amplia(void)'
+          with
+          [
+              Clave=int
+          ]
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(135): message : see reference to function template instantiation 'void unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>::amplia(void)' being compiled
+          with
+          [
+              Clave=int
+          ]
+C:\Users\Inga\Documents\GitHub\ed\45\45.cpp(12): message : see reference to class template instantiation 'unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>' being compiled
+          with
+          [
+              Clave=int
+          ]
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(179,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(178): message : while compiling class template member function 'void unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>::libera(void)'
+          with
+          [
+              Clave=int
+          ]
+C:\Users\Inga\Documents\GitHub\ed\45\hashmap_eda.h(86): message : see reference to function template instantiation 'void unordered_map<int,std::string,std::hash<int>,std::equal_to<Clave>>::libera(void)' being compiled
+          with
+          [
+              Clave=int
+          ]
+  45.vcxproj -> C:\Users\Inga\Documents\GitHub\ed\45\Debug\45.exe
