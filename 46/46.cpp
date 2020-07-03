@@ -3,6 +3,7 @@
 #include <string>
 #include "carnet.h"
 
+#define DOMJUDGE
 
 bool resuelveCaso() {
 
